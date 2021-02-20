@@ -7,7 +7,7 @@ function saveCoords(coordsObj) {
 }
 
 function getWeather(lat, lng) {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`
     ).then(function(response){
      return response.json();
     }).then(function(json){
