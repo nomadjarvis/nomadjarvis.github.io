@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Momentum</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class = "js-clock">
+        <h4 class = "js-time">00:00</h4>
+    </div>
+    <div class="js-day">
+        <h6 class = "js-date">0/0</h6>
+    </div>
+    <span class = "js-weather"></span>
+    <form class="js-form form">
+        <input type="text" class = "form__field" placeholder="What is your name?" />
+    </form>
+    <span class="js-greetings greetings"></span>
+    <form class="js-toDoForm form__group field">
+        <input type="text" class = "form__field" placeholder="Write a to do" />
+    </form>
+    <form class="js-list">
+        <form>
+            <h3>📋To do</h3>
+            <ul class="js-toDoList"></ul>
+        </form>
+        <form>
+            <h3>📋Finished</h3>
+            <ul class="js-finList"></ul>
+        </form>
+    </form>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
